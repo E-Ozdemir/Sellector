@@ -1,0 +1,44 @@
+
+/*
+*{
+    margin: 0px;
+}
+*/
+#baslik1{
+    background-color: tomato;
+    width: 300px;
+    margin: 20px;
+    /*margin: auto;*/
+
+}
+
+#par1{
+    background-color: yellow;
+    margin-bottom: 50px;
+    border: 20px solid red;
+    padding: inherit;
+    margin-top: 100px;
+    box-sizing: border-box; /*dersem icerige göre kutu büyümez*/
+    
+
+}
+
+#baslik3{
+    
+    background-color: gray;
+    margin-top: 80px;
+
+}
+div{
+    background-color: rgba(255, 10, 50, 0.4);
+    padding: 25px;
+}
+
+a{
+    padding: 	10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+

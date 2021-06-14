@@ -1,0 +1,21 @@
+
+.container {
+  background-color: bisque;
+}
+.box1 {
+  background-color: chocolate;
+  width: 300px;
+  height: 300px;
+}
+.box2 {
+  background-color: darkmagenta;
+  width: 300px;
+  height: 300px;
+  border: 15px solid red;
+  margin: 15px;
+}
+.box3 {
+  background-color: rgb(30, 173, 17);
+  width: 300px;
+  height: 300px;
+}

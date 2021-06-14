@@ -1,0 +1,49 @@
+h2[title="baslik1"]{
+    color: red;
+}
+
+p[title="paragraf1"]{
+    color: green;
+}
+a[target="_blank"]{
+    color: hotpink;
+    text-decoration: none;
+}
+p[title="paragraf2"]{
+    color: royalblue;
+}
+
+p::first-line{    /* pseudo element :: ile kullaniliyor, element icindeki karakterler üzerine islem yapabilmemize yariyor*/
+    font-size: 25px;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+ul li{
+    padding: 5px;
+    background-color: coral;
+    margin: 2px;
+    width: 300px;
+    border-radius: 20px;
+    list-style-type: "🤷‍♀️"; /*win+nokta*/
+    color: white;
+    text-align: center;
+
+}
+
+ul li:first-child{
+    background-color: teal;
+}
+.p2::first-letter{
+    font-size: 50px;
+    color: darkgoldenrod;
+}
+p[title="paragraf1"]::first-letter{
+    color: black;
+}
+ul li::before{
+    content: "\2764";
+    color: red;
+}
